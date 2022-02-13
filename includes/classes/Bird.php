@@ -3,7 +3,7 @@
 class Bird
 {
     /**
-     * @var Parrot
+     * @var Parrot ////define the type/completion of code
      */
     protected $parrot;
 
@@ -31,11 +31,6 @@ class Bird
      * @return string
      */
 
-     /**
-     * Shows us what eating, drinking, speaking, moving looks like
-     * 
-     * @return string
-     */
 
     public function eat(): string
     {

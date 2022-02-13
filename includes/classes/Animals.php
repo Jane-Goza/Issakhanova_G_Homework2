@@ -3,7 +3,7 @@
 class Animals
 {
      /**
-     * @var Canine
+     * @var Canine //define the type/completion of code
      */
     protected $canine;
 
@@ -25,7 +25,7 @@ class Animals
      * @param Bird $bird
      */
 
-    public function __construct(Canine $canine, Feline $feline, Bird $bird)
+    public function __construct(Canine $canine, Feline $feline, Bird $bird) //declare constructor methods for classes
     {
         $this->canine = $canine;
         $this->feline = $feline;
@@ -48,7 +48,7 @@ class Animals
 
     public function drink(): string
     {
-        // grab whatever "eat"ing a canine, a feline and a bird looks like, and store them in a variable.
+        // grab whatever "drink"ing a canine, a feline and a bird looks like, and store them in a variable.
         $drinkCanine = $this->canine->drink();
         $drinkFeline = $this->feline->drink();
         $drinkBird = $this->bird->drink();
@@ -58,7 +58,7 @@ class Animals
 
     public function speak(): string
     {
-        // grab whatever "eat"ing a canine, a feline and a bird looks like, and store them in a variable.
+        // grab whatever "speak"ing a canine, a feline and a bird looks like, and store them in a variable.
         $speakCanine = $this->canine->speak();
         $speakFeline = $this->feline->speak();
         $speakBird = $this->bird->speak();
@@ -68,7 +68,7 @@ class Animals
 
     public function move(): string
     {
-        // grab whatever "eat"ing a canine, a feline and a bird looks like, and store them in a variable.
+        // grab whatever "move"ing a canine, a feline and a bird looks like, and store them in a variable.
         $moveCanine = $this->canine->move();
         $moveFeline = $this->feline->move();
         $moveBird = $this->bird->move();

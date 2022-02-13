@@ -8,7 +8,6 @@ spl_autoload_register(function ($class) {
 //$canine = new Canine();
 //$feline = new Feline();
 //$bird = new Bird();
-
 $parrot = new Parrot(); 
 $cardinal = new Cardinal();
 $wolf = new Wolf();
@@ -18,7 +17,7 @@ $jaguar = new Jaguar();
 $lion = new Lion();
 
 //$myAnimals = new Animals($canine, $feline, $bird);
-$myBird = new Bird($cardinal, $parrot); //rename parent classes and show the children classes
+$myBird = new Bird($parrot, $cardinal); //rename parent classes and show the children classes
 $myCanine = new Canine($wolf, $dog);
 $myFeline = new Feline($houseCat, $jaguar, $lion);
 

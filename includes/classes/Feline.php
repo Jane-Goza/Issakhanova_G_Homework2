@@ -6,7 +6,7 @@
 class Feline
 {
     /**
-     * @var HouseCat
+     * @var HouseCat //define the type/completion of code
      */
     protected $houseHat;
 
@@ -23,7 +23,7 @@ class Feline
 
 
     /**
-     * Constructs a new instance of Meal, using an appetizer, a main dish and a dessert
+     * Constructs a new instance of Meal, using an houseCat, a jaguar and a lion
      * 
      * @param HouseCat $houseHat
      * @param Jaguar $jaguar

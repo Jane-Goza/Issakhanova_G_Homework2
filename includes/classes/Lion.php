@@ -1,5 +1,5 @@
 <?php>
-class Lion (){
+class Lion extends Feline(){
 
     public function eat()
     {
